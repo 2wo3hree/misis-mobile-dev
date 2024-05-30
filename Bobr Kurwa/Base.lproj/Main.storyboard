@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bobr_Kurwa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3D cloud view" translatesAutoresizingMaskIntoConstraints="NO" id="UVy-XI-Jhr">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pM-DO-XEN">
+                                <rect key="frame" x="196.66666666666666" y="110" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnY-QS-e3K">
+                                <rect key="frame" x="196.66666666666666" y="154" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o44-sP-j0s">
+                                <rect key="frame" x="196.66666666666666" y="102" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bnY-QS-e3K" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9ma-SD-hKB"/>
+                            <constraint firstItem="o44-sP-j0s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="Abf-1j-XgD"/>
+                            <constraint firstItem="o44-sP-j0s" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="MRL-zg-AOd"/>
+                            <constraint firstItem="7pM-DO-XEN" firstAttribute="top" secondItem="o44-sP-j0s" secondAttribute="bottom" constant="8" symbolic="YES" id="OTO-nS-IXh"/>
+                            <constraint firstItem="bnY-QS-e3K" firstAttribute="top" secondItem="o44-sP-j0s" secondAttribute="bottom" constant="52" id="QmH-11-FhP"/>
+                            <constraint firstItem="7pM-DO-XEN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="l7D-uk-nPQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="curSpeed" destination="bnY-QS-e3K" id="WhT-yG-7Re"/>
+                        <outlet property="curTemp" destination="7pM-DO-XEN" id="K0u-mK-y4S"/>
+                        <outlet property="curTime" destination="o44-sP-j0s" id="K8S-Vp-IaO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.51908396946564" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3D cloud view" width="4610" height="8225"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
