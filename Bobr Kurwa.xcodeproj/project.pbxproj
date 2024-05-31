@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A9EB4452C09257800155889 /* bert-kreischer-dance.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5A9EB4442C09257700155889 /* bert-kreischer-dance.gif */; };
+		5A9EB4472C0927BD00155889 /* gifLoaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9EB4462C0927BD00155889 /* gifLoaded.swift */; };
 		5AC69D852BFBE88700D22E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC69D842BFBE88700D22E6C /* AppDelegate.swift */; };
 		5AC69D872BFBE88700D22E6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC69D862BFBE88700D22E6C /* SceneDelegate.swift */; };
 		5AC69D892BFBE88700D22E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC69D882BFBE88700D22E6C /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A9EB4442C09257700155889 /* bert-kreischer-dance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "bert-kreischer-dance.gif"; path = "../../../../Downloads/bert-kreischer-dance.gif"; sourceTree = "<group>"; };
+		5A9EB4462C0927BD00155889 /* gifLoaded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoaded.swift; sourceTree = "<group>"; };
 		5AC69D812BFBE88700D22E6C /* Bobr Kurwa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bobr Kurwa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC69D842BFBE88700D22E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AC69D862BFBE88700D22E6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,11 +62,13 @@
 		5AC69D832BFBE88700D22E6C /* Bobr Kurwa */ = {
 			isa = PBXGroup;
 			children = (
+				5A9EB4462C0927BD00155889 /* gifLoaded.swift */,
 				5AC69D842BFBE88700D22E6C /* AppDelegate.swift */,
 				5AC69D862BFBE88700D22E6C /* SceneDelegate.swift */,
 				5AC69D882BFBE88700D22E6C /* ViewController.swift */,
 				5AC69D8A2BFBE88700D22E6C /* Main.storyboard */,
 				5AC69D8D2BFBE88900D22E6C /* Assets.xcassets */,
+				5A9EB4442C09257700155889 /* bert-kreischer-dance.gif */,
 				5AC69D8F2BFBE88900D22E6C /* LaunchScreen.storyboard */,
 				5AC69D922BFBE88900D22E6C /* Info.plist */,
 				5ACA6FB62C08CEE500349934 /* Parser.swift */,
@@ -130,6 +136,7 @@
 			files = (
 				5AC69D912BFBE88900D22E6C /* LaunchScreen.storyboard in Resources */,
 				5AC69D8E2BFBE88900D22E6C /* Assets.xcassets in Resources */,
+				5A9EB4452C09257800155889 /* bert-kreischer-dance.gif in Resources */,
 				5AC69D8C2BFBE88700D22E6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 				5AC69D892BFBE88700D22E6C /* ViewController.swift in Sources */,
 				5AC69D852BFBE88700D22E6C /* AppDelegate.swift in Sources */,
 				5AC69D872BFBE88700D22E6C /* SceneDelegate.swift in Sources */,
+				5A9EB4472C0927BD00155889 /* gifLoaded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
